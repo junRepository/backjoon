@@ -8,4 +8,5 @@ for i in range(N-1):
         if word[j] != other_word[j]:
             word[j] = '?'
 
+
 print(''.join(word))
